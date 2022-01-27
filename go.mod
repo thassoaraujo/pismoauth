@@ -1,4 +1,4 @@
-module pismoauth
+module github.com/zupthasso/pismoauth
 
 go 1.16
 
