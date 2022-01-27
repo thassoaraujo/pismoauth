@@ -1,0 +1,11 @@
+displayName: Pismo Auth
+type: middleware
+
+import: github.com/zupthasso/pismoauth
+
+summary: Autenticação Pismo
+
+testData:
+  HeaderName: "X-PismoAuth-Test"
+  PismoPublicKeysURL: "https://sandbox.pismolabs.io/robot/v1/metadata/x509/pismolabs@dev-gke-7a65.iam.gserviceaccount.com"
+  MaxAgeTime: 1000
